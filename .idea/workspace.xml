@@ -1068,12 +1068,20 @@
       <workItem from="1491953717628" duration="6420000" />
       <workItem from="1492147940357" duration="18494000" />
       <workItem from="1492203660346" duration="1759000" />
-      <workItem from="1492268263932" duration="4533000" />
+      <workItem from="1492268263932" duration="4553000" />
     </task>
+    <task id="LOCAL-00001" summary="Create forms except Add form and delete form. There aren't all relationships and don't work role filter&#10;">
+      <created>1492281937758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492281937758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101590000" />
+    <option name="totallyTimeSpent" value="101610000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1127,6 +1135,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create forms except Add form and delete form. There aren't all relationships and don't work role filter&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create forms except Add form and delete form. There aren't all relationships and don't work role filter&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
