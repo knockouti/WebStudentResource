@@ -156,7 +156,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -564,6 +566,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1068,7 +1071,7 @@
       <workItem from="1491953717628" duration="6420000" />
       <workItem from="1492147940357" duration="18494000" />
       <workItem from="1492203660346" duration="1759000" />
-      <workItem from="1492268263932" duration="4553000" />
+      <workItem from="1492268263932" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="Create forms except Add form and delete form. There aren't all relationships and don't work role filter&#10;">
       <created>1492281937758</created>
@@ -1077,11 +1080,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492281937758</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create forms except Add form and delete form. There aren't all relationships and don't work role filter&#10;">
+      <created>1492281947864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492281947864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101610000" />
+    <option name="totallyTimeSpent" value="101637000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
