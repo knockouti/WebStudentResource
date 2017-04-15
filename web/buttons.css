@@ -1,0 +1,25 @@
+.selection-type1{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+
+    border-width: 1px;
+    border-style: solid;
+    padding: 28px;
+    outline: 0;
+}
+.buttonAdd {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
