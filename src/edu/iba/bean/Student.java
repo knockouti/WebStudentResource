@@ -1,6 +1,11 @@
 package edu.iba.bean;
 
+import edu.iba.dao.DAOException;
+import edu.iba.dao.db2impl.StudentDAOImpl;
+import edu.iba.dao.interfaces.DAO;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class Student  {
     private int id;
@@ -61,13 +66,10 @@ public class Student  {
         this.groupNumber = groupNumber;
     }
 
-    public static ArrayList<Student> students = new ArrayList<Student>();
-    static {
-        students.add(new Student(1,"1","6",8.0,451001));
-        students.add(new Student(2,"2","5",8.2,451002));
-        students.add(new Student(3,"3","4",8.4,451003));
-        students.add(new Student(4,"4","3",8.6,451004));
-        students.add(new Student(5,"5","2",8.8,451005));
-        students.add(new Student(6,"6","1",9.0,451006));
-    }
+
+
+
+
+
+
 }

@@ -30,6 +30,7 @@ public class Group {
         groups.add(new Group(451004+"",8.6));
         groups.add(new Group(451005+"",8.8));
         groups.add(new Group(451006+"",9.0));
+
     }
 
     public Group() {

@@ -25,12 +25,16 @@ public abstract class AbstractDB2DAO{
 
     protected final Connection getConnection() throws DAOException{
         try {
-            if (cn.isClosed())
+
+                Class.forName("com.mysql.jdbc.Driver");
                 cn = DriverManager.getConnection(url + dbName, userName, password);
             return cn;
         } catch (SQLException e) {
             throw new DAOException(e);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         }
+        return cn;
     }
 
 

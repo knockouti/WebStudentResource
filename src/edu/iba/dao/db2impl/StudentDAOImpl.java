@@ -13,11 +13,11 @@ import java.util.List;
  * Created by Igor on 14.04.2017.
  */
 public class StudentDAOImpl extends AbstractDB2DAO implements edu.iba.dao.interfaces.StudentDAO {
-    private static String sqlCreate = "INSERT INTO `students`(`ID`, `FIRST_NAME`, `LAST_NAME`, `AVG_MARK`, `GROUP_NUMBER`) VALUES (?,?,?,?,?)";
-    private static String sqlUpdate = "UPDATE 'student' SET ID=?,FIRST_NAME=?,LAST_NAME=?,AVG_MAR=?,GROUP_NUMBER=? where ID = ?";
+    private static String sqlCreate = "INSERT INTO students(`ID`, `FIRST_NAME`, `LAST_NAME`, `AVG_MARK`, `GROUP_NUMBER`) VALUES (?,?,?,?,?)";
+    private static String sqlUpdate = "UPDATE student SET ID=?,FIRST_NAME=?,LAST_NAME=?,AVG_MAR=?,GROUP_NUMBER=? where ID = ?";
     private static String sqlDelete = "DELETE FROM 'student' WHERE ID=?";
     private static String sqlOne = "SELECT * FROM 'student' WHERE ID=?";
-    private  static String sqlAll = "SELECT * FROM 'student'";
+    private  static String sqlAll = "SELECT * FROM students";
 
     @Override
     public void create(Student obj) throws DAOException, SQLException {

@@ -23,6 +23,7 @@ public class StudentPreparator {
             request.setAttribute("avg_mark", "");
         }
         DAO<Student> dao = new StudentDAOImpl();
+
         try {
             Student student = dao.get(entityIdentifier);
             request.setAttribute("id", student.getId());

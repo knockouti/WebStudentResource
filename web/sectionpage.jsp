@@ -27,54 +27,31 @@
 
     <h2 class="login-header">Section Page</h2>
 <div class="login-container">
+
     <c:set var="message" value='${requestScope["role"]}' />
     <c:choose>
-        <c:when test="${(message.stringRole eq 'STUDENT') ||(message.stringRole eq 'PROFESSOR')}">
-            <form action="studentlist.jsp">
-                <input type="submit" class="selection-type button button1" value="Students List">
-            </form>
-            <form action="groups.jsp">
-                <input type="submit" class="selection-type button button1" value="Groups">
-            </form>
-            <form action="professors.jsp">
-                <input type="submit" class="selection-type button button1" value="Professors">
-            </form>
-            <form action="mark.jsp">
-                <input type="submit" class="selection-type button button1" value="Mark">
-            </form>
-            <form action="stydies.jsp">
-                <input type="submit" class="selection-type button button1" value="Studies">
-            </form>
-            <form action="welcome.jsp">
-                <input type="submit" class="selection-type1 button button2" value="Send Message">
-
-            </form>
-            <form action="welcome.jsp">
-                <input type="submit" class="selection-type1 button button2" value="Read Message">
-            </form>
-        </c:when>
-        <c:when test="${message.stringRole eq 'ADMIN'}">
-            <form action="studentlist.jsp">
-                <input type="submit" class="selection-type button button1" value="Students List">
-            </form>
-            <form action="groups.jsp">
-                <input type="submit" class="selection-type button button1" value="Groups">
-            </form>
-            <form action="professors.jsp">
-                <input type="submit" class="selection-type button button1" value="Professors">
-            </form>
-            <form action="mark.jsp">
-                <input type="submit" class="selection-type button button1" value="Mark">
-            </form>
-            <form action="stydies.jsp">
-                <input type="submit" class="selection-type button button1" value="Studies">
-            </form>
-            <form action="users.jsp">
-                <input type="submit" class="selection-type button button1" value="Users">
-            </form>
-            <form action="welcome.jsp">
-                <input type="submit" class="selection-type1 button button2" value="Read Message" >
-            </form>
+        <c:when test="${(message.stringRole eq 'ADMIN') ||(message.stringRole eq 'PROFESSOR')}">
+            <ul>
+                <h3> Choose option</h3>
+                <li>
+                    <a href="/section?choice=group">group list</a>
+                </li>
+                <li>
+                    <a href="/section?choice=student">students list</a>
+                </li>
+                <li>
+                    <a href="/section?choice=professor">professors list</a>
+                </li>
+                <li>
+                    <a href="/section?choice=mark">marks list</a>
+                </li>
+                <li>
+                    <a href="/section?choice=study">studies list</a>
+                </li>
+                <li>
+                    <a href="/section?choice=user">users list</a>
+                </li>
+            </ul>
         </c:when>
         <c:otherwise>
             <c:redirect url="/loginpage.jsp"/>

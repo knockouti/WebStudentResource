@@ -73,6 +73,12 @@ tr {
     text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
 }
 
+.edit-style:hover{
+    background-color: orange;
+}
+.remove-style:hover{
+    background-color: red;
+}
 tr:hover td {
     background:#4E5066;
     color:#FFFFFF;
